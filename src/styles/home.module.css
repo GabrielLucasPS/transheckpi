@@ -1,0 +1,58 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+}
+
+.content {
+    display: flex;
+}
+
+.contentImg {
+    width: 50%;
+}
+
+.contentImg img {
+    height: 500px;
+}
+
+.contentInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1,
+.title2 {
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title1 {
+    color: #1b1b1b;
+}
+
+.title2 {
+    color: #EA1313;
+}
+
+.botao {
+    margin-top: 30px;
+    background-color: #EA1313;
+    color: #FFF;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+}
+
+.botao:hover {
+    background-color: black;
+}
